@@ -1,19 +1,16 @@
-body {
-    margin: auto;
-    display:block;
-    width: 480px;
-}
+
+body {margin: auto; padding: 2em 2em 2em 2em; display: block; max-width: 480px;}
 h1 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin-top: 20px;
-    /*margin-left:auto;;*/
-    /*text-align: center;*/
+    margin-left: 3em;
+    margin-right: 3em;
 }
 img {
-    display: block;
-    margin: auto;
+    vertical-align: middle;
+    padding-right: 20px;
     width: 30%;
+    border-collapse: separate; 
     border-radius: "10%";
 }
 a {
@@ -26,19 +23,30 @@ a:hover {
 p {
     font-size: 1em;
     line-height: 1.4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #333;
+    text-align: justify;
+}
+ul { 
+    padding-left: 5%;
+    list-style: disc;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 1em;
     color: #333;
 }
-/*footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-*/
-ul.posts { 
-    margin: 20px;
-    padding: 20px;
+ul.fa-ul {
+    padding-left: 5%;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #333;
     font-size: 1em;
+    line-height: 1.4em;
 }
-
-ul.posts li {
-    list-style: none;
+i {
+    padding-right: 1em;
+}
+hr {
+    margin: 2em 5em 2em 5em; 
 }
