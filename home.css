@@ -10,6 +10,12 @@ h1 {
     /*margin-left:auto;;*/
     /*text-align: center;*/
 }
+img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    border-radius: "10%";
+}
 a {
     text-decoration: none;
     color: #999;
