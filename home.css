@@ -1,5 +1,5 @@
 
-body {margin: auto; padding: 2em 2em 2em 2em; display: block; max-width: 480px;}
+body {margin: auto; padding: 5em 1em 5em 1em; display: block; max-width: 480px;}
 h1 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -7,11 +7,10 @@ h1 {
     margin-right: 3em;
 }
 img {
+    width: 30%; height: auto;
+    margin-bottom: 1em;
     vertical-align: middle;
     padding-right: 20px;
-    width: 30%;
-    border-collapse: separate; 
-    border-radius: "10%";
 }
 a {
     text-decoration: none;
